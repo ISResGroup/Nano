@@ -1,4 +1,4 @@
-== TeamBot
+## TeamBot
 > 一个基于Mirai的群Bot
 
 > 8月12日
