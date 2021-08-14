@@ -4,7 +4,7 @@ adapters:
 debug: false
 enableVerify: true
 verifyKey: keyofMiraiHttpAPI
-singleMode: false
+singleMode: true
 cacheSize: 8192
 adapterSettings:
   http:
