@@ -1,5 +1,5 @@
 from graia.broadcast import Broadcast
-from graia.application.entry import GraiaMiraiApplication, Session, MessageChain, Group, GroupMessage, Plain
+from graia.application.entry import GraiaMiraiApplication, Session, MessageChain, Group, Plain
 import asyncio
 
 loop = asyncio.get_event_loop()

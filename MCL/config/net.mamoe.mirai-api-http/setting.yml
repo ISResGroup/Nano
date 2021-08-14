@@ -9,7 +9,7 @@ cacheSize: 8192
 adapterSettings:
   http:
     host: localhost
-    port: 8080
+    port: 4201
     cors: [*]
   ws:
     host: localhost

@@ -1,0 +1,56 @@
+[0m2021-08-12 17:34:14 V/Net 1291517893: [BotSessionSyncer] No server list cached.[0m
+[92m2021-08-12 17:34:15 I/Net 1291517893: [ECDHInitialPublicKeyUpdater] ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2021-08-12 17:34:15 I/Net 1291517893: [ECDHInitialPublicKeyUpdater] Successfully fetched ecdh public key from server.[0m
+[0m2021-08-12 17:34:15 V/Net 1291517893: Send: wtlogin.login[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Recv: wtlogin.login[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Send: StatSvc.register(online)[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Recv: StatSvc.register[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: [BotSessionSyncer] No BdhSession cache[0m
+[92m2021-08-12 17:34:16 I/Net 1291517893: [MessageSvcSyncer] Syncing friend message history...[0m
+[92m2021-08-12 17:34:16 I/Net 1291517893: [ContactUpdater] Start loading friend list...[0m
+[92m2021-08-12 17:34:16 I/Net 1291517893: [ContactUpdater] Start loading stranger list...[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Recv: OidbSvc.0x5d2_0[0m
+[92m2021-08-12 17:34:16 I/Net 1291517893: [ContactUpdater] Successfully loaded stranger list: 0 in total[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2021-08-12 17:34:16 I/Net 1291517893: [OtherClientUpdater] No OtherClient online.[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Recv: OidbSvc.0x496[0m
+[92m2021-08-12 17:34:16 I/Net 1291517893: [ContactUpdater] Start loading group list...[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2021-08-12 17:34:16 I/Net 1291517893: [MessageSvcSyncer] Syncing friend message history: Success.[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Recv: friendlist.getFriendGroupList[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: [ContactUpdater] Loading friend list: 3/3[0m
+[92m2021-08-12 17:34:16 I/Net 1291517893: [ContactUpdater] Successfully loaded friend list: 3 in total[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Recv: friendlist.GetTroopListReqV2[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Recv: OidbSvc.0x899_9[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Recv: OidbSvc.0x899_9[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-08-12 17:34:16 V/Net 1291517893: Recv: OidbSvc.0x899_9[0m
+[0m2021-08-12 17:34:17 V/Net 1291517893: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-08-12 17:34:17 V/Net 1291517893: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-08-12 17:34:17 V/Net 1291517893: Recv: OidbSvc.0x899_9[0m
+[92m2021-08-12 17:34:17 I/Net 1291517893: [ContactUpdater] Successfully loaded group list: 4 in total.[0m
+[92m2021-08-12 17:34:17 I/Net 1291517893: [KeyRefreshProcessor] Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2021-08-12 17:34:17 I/Net 1291517893: [KeyRefreshProcessor] Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2021-08-12 17:34:19 V/Net 1291517893: Recv: ConfigPushSvc.PushReq[0m
+[0m2021-08-12 17:34:19 V/Net 1291517893: Recv: ConfigPushSvc.PushReq[0m
+[92m2021-08-12 17:34:19 I/Net 1291517893: [ServerList] Server list: 36.155.249.96:14000, 36.155.208.73:80, 36.155.229.117:8080, msfwifi.3g.qq.com:8080, 120.232.19.169:8080, 111.30.181.201:80, 120.232.19.18:14000, 111.30.169.95:443, 111.30.181.202:14000, 111.30.179.179:443.[0m
+[0m2021-08-12 17:34:19 V/Net 1291517893: [BotSessionSyncer] No BdhSession to save to cache[0m
+[0m2021-08-12 17:34:19 V/Net 1291517893: [BotSessionSyncer] Saving server list to cache[0m
+[0m2021-08-12 17:34:19 V/Net 1291517893: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-08-12 17:34:19 V/Net 1291517893: [BotSessionSyncer] Saving bdh session to cache[0m
+[0m2021-08-12 17:34:19 V/Net 1291517893: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m

@@ -62,7 +62,9 @@
       "versionLocked": false
     }
   ],
-  "disabled_scripts": [],
+  "disabled_scripts": [
+    "updater.js"
+  ],
   "proxy": "",
   "log_level": 1,
   "script_props": {}
