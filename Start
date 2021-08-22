@@ -1,0 +1,67 @@
+#!/bin/bash
+PROC_NAME=mcl.jar
+SATRT(){
+    #run?
+    RUN=`ps -ef |grep -w $PROC_NAME|grep -v grep|wc -l`
+    if [ $RUN -le 0 ];then
+echo "进程不存在,即将启动进程！"
+  cd MCL/
+ nohup ./mcl > ../logs  &
+else
+   echo "检测到进程存在"
+ echo -e '\033[32m----------------------------------------\033[0m'
+     read -p " 是否需要结束进程:Y or N" pluase
+if [ "$pluase" = "Y" -o "$pluase" = "y" ]; then
+echo -e "\033[36m正在结束。。。。!\033[0m"
+kill -9 $(ps -ef | grep mcl.jar | cut -c 10-16)
+echo "进程结束成功"
+else
+  echo "继续运行"
+fi
+  fi
+  #cd path/to/mirailoader
+    
+    # nohup ./miraiOK_linux-amd64 > /dev/null &
+  
+    ProcNumber=`ps -ef |grep -w $PROC_NAME|grep -v grep|wc -l`
+if [ $ProcNumber -le 0 ];then
+   echo "MCL.jar is  error..."
+   cd MCL/
+   nohup ./mcl > ../logs &
+        else
+   echo "Mcl.jar is  runing..."
+   sleep 5s
+
+   grep "mirai-console started successfully." ../logs 
+if [ $? -eq 0 ];then
+echo  "OK"
+else
+echo "NO"
+        exit
+        cd ../
+        nohup python3.8 Main.py > /dev/null &
+fi
+    fi
+
+}
+
+STOP(){
+    kill -9 $(ps -ef | grep mcl.jar | cut -c 10-16)
+    kill -9 $(ps -ef | grep Main.py | cut -c 10-16)
+}
+
+case $1 in 
+    start)  # 服务启动需要做的步骤
+        SATRT;;
+    stop)  # 服务停止需要做的步骤
+        STOP;;
+    restart) # 重启服务需要做的步骤
+        STOP
+        SATRT;;
+    status) # 查看状态需要做的步骤
+        echo ""STATUS;;
+          *) echo "$0 {start|stop|restart|status}"
+             exit 4
+             ;;
+esac
+       
