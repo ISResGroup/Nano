@@ -18,7 +18,6 @@
 - 钟道之眼
 - [ ] 群文件md5
 - [ ] jmp位移计算
-<img src="./jmp.png" alt="jmp" title="JMP位移" style="width: 54%">
-
+![ ](jmp.png)
 - [ ] 人员活跃度统计
 - 每周
