@@ -1,7 +1,7 @@
 adapters: 
   - http
   - ws
-debug: false
+debug: true
 enableVerify: true
 verifyKey: keyofMiraiHttpAPI
 singleMode: true
