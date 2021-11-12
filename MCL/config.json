@@ -43,8 +43,8 @@
     {
       "id": "net.mamoe:mirai-api-http",
       "channel": "stable",
-      "version": "1.10.0",
-      "type": "libs",
+      "version": "2.3.3",
+      "type": "plugins",
       "versionLocked": true
     }
   ],
