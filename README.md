@@ -1,10 +1,11 @@
 <div align="center">
    <img width="160" src="Nano.jpg" alt="logo">
+   <br/>
+   <p>
+   东云名乃【東雲 なの(Shinonome Nano)】是新井圭一创作的漫画《日常》及其衍生作品的登场角色。
+   </p>
 </div>
 
-```txt
-东云名乃【東雲 なの(Shinonome Nano)】是新井圭一创作的漫画《日常》及其衍生作品的登场角色。
-```
 ---
 
 ## Nano
