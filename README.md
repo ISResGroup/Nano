@@ -12,3 +12,4 @@
 
 ---
 - Ariadne文档参照：https://graia.readthedocs.io/zh_CN/latest/
+- Ariadne结构参考doc目录下的PDF
