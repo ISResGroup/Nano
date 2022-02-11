@@ -18,6 +18,14 @@
 > 11月12日
 - 21:20：更换Ariadne,MAH2.x；版本暂时锁死，发布Releases
 
+## 实现预想
+```
+   功能路由：Twilight+Dispatcher
+   功能模块化：Saya,使用例参考ABot-Graia
+   聊天功能：独立于功能路由之外，也可以使用Twilight
+   帮助文档：可配合模块管理写入配置文件
+```
+
 ## 相关
-- Ariadne文档参照：https://graia.readthedocs.io/zh_CN/latest/
-- Ariadne结构参考doc目录下的PDF
+- 官方文档：https://graia.readthedocs.io/
+- 社区文档：https://graiax.cn/
