@@ -9,16 +9,9 @@
 ---
 
 ## Nano
-> 8月12日
-- 16:36：初始化仓库
-
-> 8月14日
-- 16:24：Graia新版本自依赖问题，旧版与mha握手失败
-
-> 11月12日
-- 21:20：更换Ariadne,MAH2.x；版本暂时锁死，发布Releases
 
 ## 实现预想
+
 ```
    功能路由：Twilight+Dispatcher
    功能模块化：Saya,使用例参考ABot-Graia
@@ -28,5 +21,6 @@
 ```
 
 ## 相关
+
 - 官方文档：https://graia.readthedocs.io/
 - 社区文档：https://graiax.cn/
